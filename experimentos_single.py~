@@ -1,9 +1,0 @@
-from shdwDetection import *
-
-
-
-imgRef = cv2.imread("aerea_orbital/115226.ppm")
-imgOut = shadowDetection_Polidorio(imgRef, 1)
-#imgOut = shadowDetection_Santos(imgRef)
-#imgOut = shadowDetection(imgRef)
-cv2.imwrite("aerea_orbital/115226_Polidorio.pgm", imgOut)
